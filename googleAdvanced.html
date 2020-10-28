@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Google Advanced Search</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body class="container-fluid">
+    <div class="row offset-lg-3 col-lg-6 text-right">
+        <ul class="tabs col-lg-12">
+            <li><a href="googleImage.html">Google Image Search</a> </li>
+            <li><a href="index.html">Google Search</a> </li>
+        </ul>
+    </div>
+    <div class="row col-lg-12 advanced">
+        <form action="https://google.com/search">
+            <div class="row">
+                <div class="col-lg-2">
+                    <label>all these words:</label>
+                </div>
+                <div class="col-lg-6">
+                    <input type="text" name="as_q" class="form-control">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-2">
+                    <label>this exact word or phrase</label>
+                </div>
+                <div class="col-lg-6">
+                    <input type="text" name="as_epq" class="form-control">
+                </div>
+            </div>
+            <div class="row pb-3">
+                <div class="col-lg-2">
+                    <label>any of these words</label>
+                </div>
+                <div class="col-lg-6">
+                    <input type="text" name="as_oq" class="form-control">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-2">
+                    <label>none of these words</label>
+                </div>
+                <div class="col-lg-6">
+                    <input type="text" name="as_eq" class="form-control">
+                </div>
+            </div>
+            <div class="row pb-set-lg-6 col-lg-2">
+                <input class="btn btn-primary" type="submit" data-toggle="button"  value="Advanced Search">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
